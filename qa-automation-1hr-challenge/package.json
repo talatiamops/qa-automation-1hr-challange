@@ -1,0 +1,17 @@
+{
+  "name": "qa-automation-1hr-challenge",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "http-server app -p 8080 -c-1",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "http-server": "^14.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}
